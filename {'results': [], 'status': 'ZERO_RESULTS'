@@ -1,0 +1,10 @@
+{'results': [], 'status': 'ZERO_RESULTS'}
+Traceback (most recent call last):
+  File "/Users/alamar/Desktop/GitHub/georgia-eats/georgiaeats.py", line 20, in <module>
+    create_df()
+  File "/Users/alamar/Desktop/GitHub/georgia-eats/georgiaeats.py", line 17, in create_df
+    yelp.db_check(zip_dict)
+  File "/Users/alamar/Desktop/GitHub/georgia-eats/yelp.py", line 47, in db_check
+    lat = round(geo_data["results"][0]["geometry"]["location"]["lat"],2)
+IndexError: list index out of range
+(base) MacBook-Pro:georgia-eats alamar$ 
